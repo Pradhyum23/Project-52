@@ -1,0 +1,69 @@
+h1 {
+    color: white;
+}
+
+.header{
+    background-color: rgb(0, 243, 252);
+    display: flex;
+    justify-content: space-between;
+    border: 20px;
+    border-color: rgb(255, 0, 51);
+    border-radius: 20px;
+    padding:20px;
+    padding-right: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Origami{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+a:link{
+    color: rgb(0, 47, 255);
+}
+a:visited{
+    color: rgb(167, 11, 146);
+}
+
+.origamiimg{
+     position: relative;
+}
+
+.origamiimg p{
+       position: absolute;
+       top:50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       opacity: 0;
+}
+
+.origamiimg:hover p{
+    opacity: 1;
+}
+
+.origamiimg:hover img{
+    opacity: 0.03;
+}
